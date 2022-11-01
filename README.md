@@ -24,7 +24,7 @@ Usted ha sido contactado de una importante empresa inversora dentro del rubro de
 * La evaluación del modelo se realizará con los precios que se encuentran en poder de los mentores de Henry (que suprimieron del dataset). Es decir, la predicción resultante por este modelo, se comparará con los valores de precios reales de las propiedades del archivo de testeo.
 
 ### Proceso
-De esta manera, utilizando el Notebook “Proyecto II.ipynb” que se encuentra en este repositorio (https://github.com/AxelM1989/ProyectoHenry-II/blob/main/Proyecto%20II.ipynb), se realizó el EDA (análisis exploratorio de los datos) a través de Pandas en su mayoría. Todo el trabajo fue realizado exclusivamente en Python. Para ello también se utilizaron otras librerías como Scikit-learn, Matplotlib, Seaborn, Numpy, missingno.
+De esta manera, utilizando el Notebook “Proyecto II.ipynb” que se encuentra en este repositorio, (https://github.com/AxelM1989/ProyectoHenry-II/blob/main/Proyecto%20II.ipynb), se realizó el EDA (análisis exploratorio de los datos) a través de Pandas en su mayoría. Todo el trabajo fue realizado exclusivamente en Python. Para ello también se utilizaron otras librerías como Scikit-learn, Matplotlib, Seaborn, Numpy, missingno.
 
 Luego de haber analizado el dataset, se limpiaron datos, se dropeando columnas consideradas de no aporte significativo al modelo y se fueron recategorizando features en datos numéricos. Este ultimo paso, necesario ya que los modelos de ML solo reciben datos de tipo numéricos.
 
@@ -36,10 +36,10 @@ El modelo elegido, en este caso, fue el de arboles de decisión y el criterio de
 
 No será motivo de este archivo realizar una explicación de los algoritmos supervisados y no supervisados, ni de los distintos tipos de ellos y sus características.
 
-El archivo “pred.csv” es el que se utiliza para el score del modelo, tiene solamente una columna con los valores predichos y es lo que se solicita de parte de los mentores, para la comprobación del modelo.
+El archivo “pred.csv” es el que se utiliza para el score del modelo, tiene solamente una columna con los valores predichos y es lo que se solicita por parte de los mentores, para la comprobación del modelo.
 
 ## Limitaciones y aclaraciones pertinentes
-Se debe aclarar que se realizó este trabajo con una limitación de tiempo por motivos personales ya que hoy 1/11 (un día después de obtener los datasets) debo viajar y volver a final de semana y por este motivo me enfoqué en poder entregar un modelo mínimo.
+Se debe aclarar que se realizó este trabajo con una limitación de tiempo por motivos personales ya que hoy 1/11 (un día después de obtener los datasets) debo viajar y volver a final de la semana y por este motivo me enfoqué en poder entregar un modelo mínimo.
 
 Esto significa que soy consciente que el modelo no es adecuado y lejos está de ser óptimo. 
 
